@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    background-color:#2b2b2b ;
+}
+.container.anuncio{
+    background-color:#4180ab;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+}
+.container{
+    background-color:#1d1d1d ;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    box-shadow: 0px 10px 15px black;
+}
+.menu {
+    position: absolute; 
+    bottom: 10px; 
+    left: 0; 
+    right: 0; 
+    text-align: center; 
+}
+.menu a {
+    margin: 0 10px;
+    bottom: 5px;
+    text-align: center;
+    font-size: 25;
+    font-weight: bold;
+    text-decoration: none; 
+    color: white;
+}
+
+.logo{ 
+    float: left;
+    margin: 10px;
+}
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+.search-cart {
+    float: right;
+    align-items: center;
+    margin: 10px;
+    bottom: 5px;
+}
+.search-cart input {
+    margin-right: 10px;
+}
+.main {
+    background-image: url("../data/fondo.jpg");
+    text-align: center;
+    padding: 0;
+}
+.main img{
+    margin: 10px; 
+}
+.main p{
+    color: white;
+}
+.contacto{
+    background-color:#1d1d1d;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.contacto {
+    background-color: #1d1d1d;
+    height: auto; 
+    text-align: center;
+    overflow: hidden; 
+    padding: 20px;
+}
+.contacto p{
+    color: white;
+}
+.redes {
+    position: relative;
+    float: left; 
+    width: 30%; 
+    text-align: left; 
+}
+.maps {
+    float: none;
+    width: 500px;
+    height: 250px; 
+    margin: 0 auto; 
+}
+.email{
+    position: relative;
+    float: right; 
+    width: 30%; 
+    text-align: right; 
+    bottom: 240px;
+
+}
+.email input[type="text"] {
+    width: 300px;  
+    height: 40px;  
+}
+
+.sobrenosotros{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: url("../data/portada.jpg");
+}
+
+/* CSS PAG HISTORIA */
+.historia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+.btn-historia {
+    padding: 15px 30px;
+    background-color: #ff5722; 
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.btn-historia:hover {
+    background-color: black; 
+
+}
+
+.data{ 
+    width: 100%;
+    height: 700px;
+    background-color:#4180ab;
+}
+
+.data h1{
+    padding-top: 20px;
+    color: #ffffff; 
+    font-size: 36px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.data p{
+    margin: 50px;
+    font-size: 15px; 
+    line-height: 1.6; 
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-list li {
+    padding-left: 50px;
+    margin-bottom: 10px;
+    color: #ffffff; 
+}
+
+
+/* CSS PAG HOMBRE */
+.hombres {
+    
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 20px; 
+    
+}
+.hombres img {
+    margin: 10px; 
+}
